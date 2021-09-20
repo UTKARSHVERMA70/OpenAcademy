@@ -1,5 +1,5 @@
 body{
-    background-image: url(Wallpaper.jpg);
+    /* background-image: url(Wallpaper.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0);
@@ -17,7 +17,7 @@ body{
     text-align: center;
     padding-top: 50px;
     color: white;
-    box-shadow: 3PX 3PX 2PX rgba(0, 0, 0, 0.394);
+    box-shadow: 3PX 3PX 2PX rgba(0, 0, 0, 0.775);
     margin-top: 70px
     
 }
@@ -29,7 +29,7 @@ body{
     text-align: center;
     padding-top: 50px;
     color: white;
-    box-shadow: 3PX 3PX 2PX rgba(0, 0, 0, 0.394);
+    box-shadow: 3PX 3PX 2PX rgba(0, 0, 0, 0.775);
     margin-top: 70px
     
 
@@ -44,25 +44,166 @@ body{
     text-align: center;
     padding-top: 50px;
     color: white;
-    box-shadow: 3PX 3PX 2PX rgba(0, 0, 0, 0.394);
+    box-shadow: 3PX 3PX 2PX rgba(0, 0, 0, 0.775);
     margin-top: 70px
 
     
 }
 
 
-#options:hover{
-cursor: pointer;
-font-size: 35px;
 
+
+
+@media screen and (max-width: 422px) {
+    .box1{
+    
+        background-color: rgb(98, 255, 161);
+        height: 60px;
+        width: 230px;
+        border-radius: 15px;
+        text-align: center;
+        padding-top: 30px;
+        color: white;
+        box-shadow: 3PX 3PX 2PX rgba(0, 0, 0, 0.394);
+        margin-top: 70px
+        
+    }
+    .box2{
+        background-color: rgb(255, 245, 98);
+        height: 60px;
+        width: 230px;
+        border-radius: 15px;
+        text-align: center;
+        padding-top: 30px;
+        color: white;
+        box-shadow: 3PX 3PX 2PX rgba(0, 0, 0, 0.394);
+        margin-top: 70px
+        
+    
+    
+    }
+    
+    .box3{
+        background-color: rgb(179, 98, 255);
+        height: 60px;
+        width: 230px;
+        border-radius: 15px;
+        text-align: center;
+        padding-top: 30px;
+        color: white;
+        box-shadow: 3PX 3PX 2PX rgba(0, 0, 0, 0.394);
+        margin-top: 70px
+    
+        
+    }
+    
 }
 
 
 
-#options1{
-    opacity: 0.9;
-}
-#options2{
-    opacity: 0.95;
+
+
+
+
+
+@media screen and (max-width: 339px) {
+    .box1{
+    
+        background-color: rgb(98, 255, 161);
+        height: 50px;
+        width: 200px;
+        border-radius: 15px;
+        text-align: center;
+        padding-top: 20px;
+        color: white;
+        box-shadow: 3PX 3PX 2PX rgba(0, 0, 0, 0.394);
+        margin-top: 70px
+        
+    }
+    .box2{
+        background-color: rgb(255, 245, 98);
+        height: 50px;
+        width: 200px;
+        border-radius: 15px;
+        text-align: center;
+        padding-top: 20px;
+        color: white;
+        box-shadow: 3PX 3PX 2PX rgba(0, 0, 0, 0.394);
+        margin-top: 70px
+        
+    
+    
+    }
+    
+    .box3{
+        background-color: rgb(179, 98, 255);
+        height: 50px;
+        width: 200px;
+        border-radius: 15px;
+        text-align: center;
+        padding-top: 20px;
+        color: white;
+        box-shadow: 3PX 3PX 2PX rgba(0, 0, 0, 0.394);
+        margin-top: 70px
+    
+        
+    }
+    
 }
 
+
+
+/* ---------------*/
+
+
+@media screen and (max-width: 305px) {
+    .box1{
+    
+        background-color: rgb(98, 255, 161);
+        height: 50px;
+        width: 250px;
+        border-radius: 15px;
+        text-align: center;
+        padding-top: 50px;
+        color: white;
+        box-shadow: 3PX 3PX 2PX rgba(0, 0, 0, 0.394);
+        margin-top: 70px
+        
+    }
+    .box2{
+        background-color: rgb(255, 245, 98);
+        height: 50px;
+        width: 250px;
+        border-radius: 15px;
+        text-align: center;
+        padding-top: 50px;
+        color: white;
+        box-shadow: 3PX 3PX 2PX rgba(0, 0, 0, 0.394);
+        margin-top: 70px
+        
+    
+    
+    }
+    
+    .box3{
+        background-color: rgb(179, 98, 255);
+        height: 50px;
+        width: 250px;
+        border-radius: 15px;
+        text-align: center;
+        padding-top: 50px;
+        color: white;
+        box-shadow: 3PX 3PX 2PX rgba(0, 0, 0, 0.394);
+        margin-top: 70px
+    
+        
+    }
+    
+}
+
+
+@media screen and (max-width: 305px) {
+    body{
+        opacity: 0;
+    }
+}
